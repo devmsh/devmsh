@@ -1,16 +1,38 @@
-### Hi there 👋
+## Hi, I'm Mohammed Shurrab
+![](https://raw.githubusercontent.com/rafnixg/rafnixg/master/rafnix_header.jpeg)
 
-<!--
-**devmsh/devmsh** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```php
+class Devmsh extends Developer
+{
+    public String $name = "Mohammed Shurrab";
+    public String $position = "CTO @ Extreme";
 
-Here are some ideas to get you started:
+    public function knowledge()
+    {
+        return collect([
+            "Laravel",
+            "Flutter",
+            "TDD",
+            "Refactoring",
+            "Serverless",
+        ]);
+    }
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    public function contacts()
+    {
+        return collect([
+            "twitter" => "https://twitter.com/devmsh",
+            "github" => "https://github.com/devmsh",
+        ]);
+    }
+    
+    public function publications()
+    {
+        return collect([
+            "medium" => "https://medium.com/@devmsh",
+            "podcast" => "https://reds-talk-podcast.simplecast.com/",
+            "youtube" => "https://www.youtube.com/channel/UCm4QTRXViHlmWV4egG7Z0WQ/",
+        ]);
+    }
+}
+```
