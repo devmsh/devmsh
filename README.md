@@ -1,5 +1,4 @@
 ## Hi, I'm Mohammed Shurrab
-![](https://raw.githubusercontent.com/rafnixg/rafnixg/master/rafnix_header.jpeg)
 
 ```php
 class Devmsh extends Developer
