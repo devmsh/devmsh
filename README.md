@@ -1,5 +1,5 @@
 ## Hi, I'm Mohammed Shurrab
-![Visitors](https://visitor-badge.laobi.icu/badge?page_id=devmsh.devmsh)
+![Devmsh's github stats](https://github-readme-stats.vercel.app/api?username=devmsh)
 
 ```php
 class Devmsh extends Developer
@@ -36,3 +36,5 @@ class Devmsh extends Developer
     }
 }
 ```
+
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=devmsh.devmsh)
